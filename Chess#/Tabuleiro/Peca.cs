@@ -7,9 +7,9 @@
         public int qteMovimentos { get; protected set; }
         public TabuleiroJogo tab { get; protected set; }
 
-        public Peca(Posicao posicao, TabuleiroJogo tab, Cor cor)
+        public Peca(TabuleiroJogo tab, Cor cor)
         {
-            this.posicao = posicao;
+            this.posicao = null;
             this.tab = tab;
             this.cor = cor;
             this.qteMovimentos = 0;
