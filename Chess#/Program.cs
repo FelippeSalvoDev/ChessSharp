@@ -1,9 +1,18 @@
 ﻿using Tabuleiro;
 
-class Program
+
+namespace ChessSharp
 {
-    private static void Main(string[] args)
+    class Program
     {
-        TabuleiroJogo tab = new TabuleiroJogo(8,8);
+        private static void Main(string[] args)
+        {
+            TabuleiroJogo tab = new TabuleiroJogo(8, 8);
+
+            Tela.ImprimirTabuleiro(tab);
+
+
+            Console.ReadLine();
+        }
     }
 }
