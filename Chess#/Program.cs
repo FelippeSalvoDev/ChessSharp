@@ -1,11 +1,9 @@
 ﻿using Tabuleiro;
 
-internal class Program
+class Program
 {
     private static void Main(string[] args)
     {
-        Posicao P;
-
-        P = new Posicao(3, 4);
+        TabuleiroJogo tab = new TabuleiroJogo(8,8);
     }
 }
