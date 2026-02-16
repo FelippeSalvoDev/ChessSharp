@@ -52,7 +52,7 @@
         {
             if (!PosicaoValida(pos))
             {
-                throw new TabuleiroException("Posicçãp inválida");
+                throw new TabuleiroException("Posição inválida");
             }
         }
     }
